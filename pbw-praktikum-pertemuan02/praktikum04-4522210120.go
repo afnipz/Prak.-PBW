@@ -9,7 +9,7 @@ func main(){
 	luas, keliling := hitungLuasKelilingPersegiPanjang(panjang, lebar)
 
 
-	fmt.Println("Luas persegi panjang: ", luas)
+	fmt.Println("Luas persegi panjang    : ", luas)
 	fmt.Println("Keliling persegi panjang: ", keliling)
 }
 

@@ -22,7 +22,7 @@ func main() {
     dataMahasiswa["300404261"] = Mahasiswa{"Devani Putri", "300404261", "Manajemen"}
 
 	// Menampilkan daftar nama mahasiswa dengan perulangan
-	fmt.Println("Daftar Mahasiswa:")
+	fmt.Println("Daftar Mahasiswa")
 	for _, mahasiswa := range dataMahasiswa {
 		fmt.Println("Nama:", mahasiswa.Nama)
 	}
