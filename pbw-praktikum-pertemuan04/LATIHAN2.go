@@ -22,4 +22,18 @@ func main(){
 	fmt.Println(eko.Name)
 	fmt.Println(eko.Address)
 	fmt.Println(eko.Age)
+
+	joko := Customer{
+		Name: "Joko",
+		Address: "Indonesia",
+		Age: 30,
+	}
+	fmt.Println(joko)
+
+	budi := Customer{"Budi", "Indonesia", 30}
+	fmt.Println(budi)
+
+	budi.sayHello("Agus")
+	eko.sayHello("Agus")
+	joko.sayHello("Agus")
 }
